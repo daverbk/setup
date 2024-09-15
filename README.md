@@ -9,7 +9,10 @@
   * [`gpg`](#gpg)
 * [Git](#git)
 * [Apps](#apps)
-* [Action](#actions)
+* [Actions](#actions)
+  * [Map `Esc` to `Caps Lock`](#map-esc-to-caps-lock)
+  * [Dock](#dock)
+* [Fonts](#fonts)
 <!-- TOC -->
 
 ---
@@ -54,6 +57,12 @@ brew install pinentry-mac
 brew install gnupg
 ```
 
+## `sdkman`
+
+```bash
+curl -s "https://get.sdkman.io" | bash
+```
+
 # Git
 
 - [ ] Add global .gitignore
@@ -68,10 +77,19 @@ brew install gnupg
 - [ ] [`Rectangle`](https://rectangleapp.com/)
 - [ ] [`Fliqlo`](https://fliqlo.com/)
 - [ ] [`1password`](https://support.1password.com/get-the-apps/)
-
+- [ ] [`Spotify`](https://www.spotify.com/us/download/mac/)
 
 # Actions
 
 ## Map `Esc` to `Caps Lock`
 
 Settings -> Keyboard -> Keyboard Shortcuts -> Modifier Keys
+
+## Dock
+
+Turn off Settings -> Desktop & Dock -> Show suggested and recent apps in Dock
+
+# Fonts 
+
+1. Import [`JetBrain Mono`](https://www.jetbrains.com/lp/mono/)
+2. Set it in `Terminal` via Settings -> Font -> Change
