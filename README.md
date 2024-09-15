@@ -9,6 +9,7 @@
   * [`gpg`](#gpg)
 * [Git](#git)
 * [Apps](#apps)
+* [Action](#actions)
 <!-- TOC -->
 
 ---
@@ -66,3 +67,11 @@ brew install gnupg
 - [ ] [`Alfred`](https://www.alfredapp.com/)
 - [ ] [`Rectangle`](https://rectangleapp.com/)
 - [ ] [`Fliqlo`](https://fliqlo.com/)
+- [ ] [`1password`](https://support.1password.com/get-the-apps/)
+
+
+# Actions
+
+## Map `Esc` to `Caps Lock`
+
+Settings -> Keyboard -> Keyboard Shortcuts -> Modifier Keys
