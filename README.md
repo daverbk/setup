@@ -83,6 +83,7 @@ curl -s "https://get.sdkman.io" | bash
 - [ ] [`Fliqlo`](https://fliqlo.com/)
 - [ ] [`1password`](https://support.1password.com/get-the-apps/)
 - [ ] [`Spotify`](https://www.spotify.com/us/download/mac/)
+- [ ] [`Logi Option`](https://www.logitech.com/en-us/setup/mxsetup/logi-options.html)
 
 # Actions
 
