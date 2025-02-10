@@ -70,32 +70,41 @@ curl -s "https://get.sdkman.io" | bash
 
 # Git
 
-- [ ] Add global .gitignore
-- [ ] Import `gpg` keys
+* [ ] Add global .gitignore
+* [ ] Import `gpg` keys
 
 # Apps
 
-- [ ] [`Telegram`](https://macos.telegram.org/)
-- [ ] [`Idea`](https://www.jetbrains.com/idea/download/?section=mac)
-- [ ] [`Chrome`](https://www.google.com/intl/en/chrome/)
-- [ ] [`Alfred`](https://www.alfredapp.com/)
-- [ ] [`Rectangle`](https://rectangleapp.com/)
-- [ ] [`Fliqlo`](https://fliqlo.com/)
-- [ ] [`1password`](https://support.1password.com/get-the-apps/)
-- [ ] [`Spotify`](https://www.spotify.com/us/download/mac/)
-- [ ] [`Logi Option`](https://www.logitech.com/en-us/setup/mxsetup/logi-options.html)
+* [ ] [`Telegram`](https://macos.telegram.org/)
+* [ ] [`Idea`](https://www.jetbrains.com/idea/download/?section=mac)
+* [ ] [`Chrome`](https://www.google.com/intl/en/chrome/)
+* [ ] [`Alfred`](https://www.alfredapp.com/)
+* [ ] [`Rectangle`](https://rectangleapp.com/)
+* [ ] [`Fliqlo`](https://fliqlo.com/)
+* [ ] [`1password`](https://support.1password.com/get-the-apps/)
+* [ ] [`Spotify`](https://www.spotify.com/us/download/mac/)
+* [ ] [`Karabiner`](https://karabiner-elements.pqrs.org/)
+* [ ] [`Logi Option`](https://www.logitech.com/en-us/setup/mxsetup/logi-options.html)
 
 # Actions
 
-## Map `Esc` to `Caps Lock`
+## Map `Caps Lock` to `Esc`
 
 Settings -> Keyboard -> Keyboard Shortcuts -> Modifier Keys
+
+## Map `Esc` to `
+
+Add a complex modification to `karabiner` from [the file](karabiner-modifications/esc-backtick.json)
+
+## Map `Ctrl` to input source swtich
+
+Add another modification to `karabiner` from [another file](karabiner-modifications/ctrl-input-source.json)
 
 ## Dock
 
 Turn off Settings -> Desktop & Dock -> Show suggested and recent apps in Dock
 
-# Fonts 
+# Fonts
 
 1. Import [`JetBrain Mono`](https://www.jetbrains.com/lp/mono/)
 2. Set it in `Terminal` via Settings -> Font -> Change

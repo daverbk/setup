@@ -1,0 +1,26 @@
+{
+    "description": "Hold for Ctrl, Tap for Input Source Switch",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_control",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_control"
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "key_code": "f18"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
