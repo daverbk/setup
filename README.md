@@ -1,71 +1,20 @@
-**Contents**
-
 <!-- TOC -->
 * [Terminal](#terminal)
-  * [`brew`](#brew)
-  * [`oh-my-zsh`](#oh-my-zsh)
-    * [`ZSH_THEME="crunch"` and `plugins=(git zsh-syntax-highlighting zsh-autosuggestions)` in `.zshrc`](#zsh_themecrunch-and-pluginsgit-zsh-syntax-highlighting-zsh-autosuggestions-in-zshrc)
-  * [`pinentry-mac`](#pinentry-mac)
-  * [`gpg`](#gpg)
 * [Git](#git)
 * [Apps](#apps)
 * [Actions](#actions)
-  * [Map `Esc` to `Caps Lock`](#map-esc-to-caps-lock)
-  * [Dock](#dock)
+    * [Map `Caps Lock` to `Esc`](#map-caps-lock-to-esc)
+    * [Map `Ctrl` to input source swtich](#map-ctrl-to-input-source-swtich)
+    * [Dock](#dock)
 * [Fonts](#fonts)
 <!-- TOC -->
 
----
-
 # Terminal
 
-## [`brew`](https://brew.sh/)
+Run setup script from the repo's directory
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-## [`oh-my-zsh`](https://ohmyz.sh/)
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### `ZSH_THEME="crunch"` and `plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vi-mode)` in `.zshrc`
-
-```bash
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-
-```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-```bash
-git clone https://github.com/jeffreytse/zsh-vi-mode \
-  $ZSH_CUSTOM/plugins/zsh-vi-mode
-```
-
-```bash
-vim ~/.zshrc
-```
-
-## `pinentry-mac`
-
-```bash
-brew install pinentry-mac
-```
-
-## `gpg`
-
-```bash
-brew install gnupg
-```
-
-## `sdkman`
-
-```bash
-curl -s "https://get.sdkman.io" | bash
+./setup.sh
 ```
 
 # Git
@@ -88,19 +37,15 @@ curl -s "https://get.sdkman.io" | bash
 
 # Actions
 
-## Map `Caps Lock` to `Esc`
+### Map `Caps Lock` to `Esc`
 
 Settings -> Keyboard -> Keyboard Shortcuts -> Modifier Keys
 
-## Map `Esc` to `
-
-Add a complex modification to `karabiner` from [the file](karabiner-modifications/esc-backtick.json)
-
-## Map `Ctrl` to input source swtich
+### Map `Ctrl` to input source swtich
 
 Add another modification to `karabiner` from [another file](karabiner-modifications/ctrl-input-source.json)
 
-## Dock
+### Dock
 
 Turn off Settings -> Desktop & Dock -> Show suggested and recent apps in Dock
 
