@@ -1,0 +1,9 @@
+antigen
+elephant-all
+gnome-pomodoro-git
+google-chrome
+hyprdynamicmonitors-bin
+intel-ipu6-dkms-git
+openlens-bin
+openvpn3
+telegram-desktop-bin

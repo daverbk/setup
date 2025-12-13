@@ -1,0 +1,45 @@
+[general]
+destination = "$HOME/.config/hypr/monitors.conf"
+
+[lid_events]
+
+[lid_events.dbus_query_object]
+destination = "org.freedesktop.UPower"
+path = "/org/freedesktop/UPower"
+method = "org.freedesktop.DBus.Properties.Get"
+expected_lid_closing_value = "true"
+
+[[lid_events.dbus_query_object.args]]
+arg = "org.freedesktop.UPower"
+
+[[lid_events.dbus_query_object.args]]
+arg = "LidIsClosed"
+
+[[lid_events.dbus_signal_match_rules]]
+interface = "org.freedesktop.DBus.Properties"
+object_path = "/org/freedesktop/UPower"
+member = "PropertiesChanged"
+
+[[lid_events.dbus_signal_receive_filters]]
+name = "org.freedesktop.DBus.Properties.PropertiesChanged"
+body = "LidIsClosed"
+
+[profiles.lid_closed]
+config_file = "hyprconfigs/closed.conf"
+config_file_type = "static"
+
+[profiles.lid_closed.conditions]
+lid_state = "Closed"
+
+[[profiles.lid_closed.conditions.required_monitors]]
+name = "eDP-1"
+
+[profiles.lid_opened]
+config_file = "hyprconfigs/opened.conf"
+config_file_type = "static"
+
+[profiles.lid_opened.conditions]
+lid_state = "Opened"
+
+[[profiles.lid_opened.conditions.required_monitors]]
+name = "eDP-1"

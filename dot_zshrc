@@ -1,0 +1,27 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source /usr/share/zsh/share/antigen.zsh
+antigen use oh-my-zsh
+
+# Plugins
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle jeffreytse/zsh-vi-mode
+antigen bundle fdellwing/zsh-bat
+antigen bundle MichaelAquilina/zsh-you-should-use
+antigen bundle zpm-zsh/ls
+antigen bundle zshzoo/cd-ls@main
+antigen bundle andreaconti/auto-cd@main
+
+# Load Powerlevel10k theme
+antigen theme romkatv/powerlevel10k
+
+# Apply antigen
+antigen apply
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

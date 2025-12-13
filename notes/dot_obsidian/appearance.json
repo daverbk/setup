@@ -1,0 +1,9 @@
+{
+  "accentColor": "#454545",
+  "interfaceFontFamily": "Inter",
+  "nativeMenus": false,
+  "showViewHeader": false,
+  "showRibbon": false,
+  "textFontFamily": "IBM Plex Sans",
+  "monospaceFontFamily": "CaskaydiaMono Nerd Font Mono"
+}
