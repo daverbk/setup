@@ -3,8 +3,7 @@
 1. Install packages
 
 ```
-cd /scripts
-setup.sh
+./scripts/setup.sh
 ```
 
 2. Apply dotfiles
