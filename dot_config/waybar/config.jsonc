@@ -15,7 +15,6 @@
     "group/tray-expander",
     "bluetooth",
     "network",
-    "custom/vpn",
     "pulseaudio",
     "cpu",
     "battery"
@@ -149,12 +148,5 @@
     "format": "{}",
     "format-en": "🏈",
     "format-by": "🌼"
-  },
-  "custom/vpn": {
-    "fotmat": "{}",
-    "interval": 3,
-    "return-type": "json",
-    "exec": "~/.config/waybar/vpn/check-status.sh",
-    "on-click": "~/.config/waybar/vpn/toggle.sh"
   }
 }

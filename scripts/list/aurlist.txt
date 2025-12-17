@@ -3,4 +3,5 @@ google-chrome
 hyprdynamicmonitors-bin
 openlens-bin
 openvpn3
+openvpn3-indicator-git
 telegram-desktop-bin

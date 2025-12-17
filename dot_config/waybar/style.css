@@ -41,7 +41,7 @@
 }
 
 #cpu {
-  margin-right: 6.5px;
+  margin-right: 9.5px;
 }
 
 #tray {
@@ -49,15 +49,15 @@
 }
 
 #pulseaudio {
-  margin-right: 14px;
+  margin-right: 17px;
 }
 
 #bluetooth {
-  margin-right: 14px;
+  margin-right: 16px;
 }
 
 #network {
-  margin-right: 18px;
+  margin-right: 12px;
 }
 
 #custom-expand-icon {
@@ -94,6 +94,3 @@ tooltip {
   font-size: 12px;
 }
 
-#custom-vpn {
-  margin-right: 10px;
-}
