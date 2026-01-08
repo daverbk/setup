@@ -1,12 +1,12 @@
-## dots & packages
+# dots & packages
 
-1. Install packages
+Install packages
 
 ```
 ./scripts/setup.sh
 ```
 
-2. Apply dotfiles
+Apply dotfiles
 
 ```
 chezmoi init --apply https://github.com/daverbk/setup.git
@@ -18,4 +18,4 @@ chezmoi init --apply https://github.com/daverbk/setup.git
 - elephant-bookmarks via elephant-all & activate script
 - google chrome setup
 - remove extra apps & web apps
-
+- start hyprdynamicmonitors services

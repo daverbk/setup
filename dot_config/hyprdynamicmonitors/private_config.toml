@@ -1,5 +1,6 @@
 [general]
 destination = "$HOME/.config/hypr/monitors.conf"
+post_apply_exec = "hyprctl reload"
 
 [lid_events]
 
