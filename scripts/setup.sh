@@ -29,7 +29,7 @@ install_packages() {
 
 setup_zsh() {
   echo "Setting zsh as the default shell"
-  chsh -s $()
+  chsh -s $(which zsh)
 }
 
 setup_ristretto() {
