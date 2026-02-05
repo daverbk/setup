@@ -8,12 +8,9 @@ Install packages
 
 Apply dotfiles
 
-```
-chezmoi init --apply https://github.com/daverbk/setup.git
-```
-
 ## todo
 
+- add 'apply dotfiles' script
 - openvpn3 w/ tunnelbear setup script
 - elephant-bookmarks via elephant-all & activate script
 - google chrome setup

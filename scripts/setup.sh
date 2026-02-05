@@ -8,7 +8,7 @@ main() {
   echo "Starting system setup..."
   install_packages
   setup_zsh
-  setup_ristretto
+  setup_theme
   echo "Setup complete!"
 }
 
@@ -32,10 +32,10 @@ setup_zsh() {
   chsh -s $(which zsh)
 }
 
-setup_ristretto() {
-  echo "Setting up Ristretto theme"
-  omarchy-theme-set Ristretto
-  echo "Ristretto theme has been set up"
+setup_theme() {
+  echo "Setting up theme"
+  omarchy-theme-install https://github.com/daverbk/omarchy-another-theme.git
+  echo "Theme has been set up"
 }
 
 main

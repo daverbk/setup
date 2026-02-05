@@ -5,3 +5,4 @@ openlens-bin
 openvpn3
 openvpn3-indicator-git
 telegram-desktop-bin
+kora-icon-theme

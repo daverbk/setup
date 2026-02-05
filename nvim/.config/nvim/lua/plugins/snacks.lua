@@ -1,0 +1,17 @@
+return {
+  "folke/snacks.nvim",
+  opts = {
+    scroll = {
+      enabled = false,
+    },
+    picker = {
+      hidden = true,
+      ignored = true,
+      sources = {
+        projects = {
+          projects = { "~/.config/nvim/" },
+        },
+      },
+    },
+  },
+}
