@@ -1,1 +1,0 @@
-/home/daverbk/.config/omarchy/current/theme/neovim.lua
