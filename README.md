@@ -8,11 +8,21 @@ Install packages
 
 Apply dotfiles
 
+```
+stow --adopt -t ~ <package_name>
+```
+
+Available packages
+
+- desktop (contains overall desktop configs)
+- idea (.ideavimrc)
+- zsh (.zshrc)
+- nvim (nvim + lazyvim config)
+
 ## todo
 
-- add 'apply dotfiles' script
 - openvpn3 w/ tunnelbear setup script
 - elephant-bookmarks via elephant-all & activate script
-- google chrome setup
+- logins list
 - remove extra apps & web apps
 - start hyprdynamicmonitors services
