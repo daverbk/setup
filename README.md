@@ -10,6 +10,7 @@ Apply dotfiles
 
 ```
 stow --adopt -t ~ <package_name>
+git reset --hard
 ```
 
 Available packages
