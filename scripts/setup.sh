@@ -9,6 +9,7 @@ main() {
   install_packages
   setup_zsh
   setup_theme
+  run_stow
   echo "Setup complete!"
 }
 
@@ -36,6 +37,13 @@ setup_theme() {
   echo "Setting up theme"
   omarchy-theme-install https://github.com/daverbk/omarchy-another-theme.git
   echo "Theme has been set up"
+}
+
+run_stow() {
+  echo "Stowing configs"
+  stow --adopt -t ~ desktop idea nvim zsh
+  git reset --hard
+  echo "Stowing has been completed"
 }
 
 main

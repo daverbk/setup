@@ -13,7 +13,7 @@ stow --adopt -t ~ <package_name>
 git reset --hard
 ```
 
-Available packages
+Available stow packages
 
 - desktop (contains overall desktop configs)
 - idea (.ideavimrc)
