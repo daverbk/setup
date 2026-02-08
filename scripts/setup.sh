@@ -10,6 +10,7 @@ main() {
   setup_zsh
   setup_theme
   run_stow
+  omarchy-update-restart
   echo "Setup complete!"
 }
 
